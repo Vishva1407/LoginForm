@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EDEDEF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.loginForm{
+    width: 800px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: flex;
+}
+.form{
+    width: 50%;
+    height: 100%;
+}
+.loginForm .design{
+    width: 50%;
+    height: 100%;
+    background-color: #51C6CF;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginForm .design h1{
+    font-weight: lighter;
+}
+.loginForm .design button{
+    width: 120px;
+    background-color: transparent;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.loginForm .design p{
+    margin: 20px 0px;
+    color: #DADADA;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logos{
+    width: 40px;
+    height: 40px;
+    margin: 15px 0px;
+}
+input{
+    display: block;
+}
+.inputbox{
+    width: 280px;
+    border: 0;
+    outline: none;
+    padding: 10px 10px;
+    background-color: #EDEDEF;
+    margin: 12px 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.signInBtn{
+    margin: 10px auto;
+    width: 120px;
+    background-color: #51C6CF;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
